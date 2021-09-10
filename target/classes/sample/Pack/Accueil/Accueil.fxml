@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="Parent" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="740.0" style="-fx-background-radius: 10; -fx-border-color: #59606B;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Pack.Accueil.AccueilController">
+   <children>
+      <JFXButton fx:id="Micro_button" buttonType="RAISED" contentDisplay="CENTER" focusTraversable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="27.0" prefWidth="27.0" ripplerFill="BLACK" style="-fx-background-color: #EEE; -fx-background-radius: 20;" text=" " AnchorPane.rightAnchor="48.0" AnchorPane.topAnchor="12.0">
+         <graphic>
+            <ImageView fx:id="micro" fitHeight="18.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/icons8-microphone-100.png" />
+               </image>
+            </ImageView>
+         </graphic></JFXButton>
+      <JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="CENTER" focusTraversable="false" graphicTextGap="0.0" layoutX="671.0" layoutY="9.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#Close" prefHeight="27.0" prefWidth="27.0" ripplerFill="#ff7676" style="-fx-background-color: #EEE; -fx-background-radius: 20;" text=" " AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="12.0">
+         <graphic>
+            <ImageView fx:id="micro1" fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/icons8-cancel-384.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+      <Label alignment="CENTER" layoutX="214.0" layoutY="41.0" prefHeight="17.0" prefWidth="740.0" text="Copyrigth© 2021  DanGlChris. All rights reserved" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="653.0" layoutY="51.0" prefHeight="17.0" prefWidth="87.0" text="Transky 1.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="653.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font name="System Bold" size="10.0" />
+         </font>
+      </Label>
+      <Group layoutX="608.0" layoutY="22.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="608.0" AnchorPane.topAnchor="0.0" />
+      <ChoiceBox fx:id="language_list" focusTraversable="false" layoutX="606.0" layoutY="9.0" prefHeight="25.0" prefWidth="78.0" AnchorPane.rightAnchor="85.0" AnchorPane.topAnchor="12.0" />
+      <JFXTextArea fx:id="Text_transcription" editable="false" focusColor="#405aa800" focusTraversable="false" layoutX="18.0" layoutY="12.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="37.0" prefWidth="513.0" promptText="Start listening to something ..." style="-fx-background-color: #D8DADC; -fx-background-radius: 0 20 20 0; -fx-prompt-text-fill: #686868;" unFocusColor="#4d4d4d00" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="17.0" AnchorPane.topAnchor="10.0">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+         <padding>
+            <Insets left="10.0" right="12.0" top="2.0" />
+         </padding>
+      </JFXTextArea>
+      <JFXButton buttonType="RAISED" contentDisplay="CENTER" focusTraversable="false" layoutX="539.0" layoutY="9.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#Clear" prefHeight="27.0" prefWidth="27.0" ripplerFill="#81abff" style="-fx-background-color: #EEE; -fx-background-radius: 20;" text=" " AnchorPane.topAnchor="12.0">
+         <graphic>
+            <ImageView fitHeight="25.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/icons8-restart-512.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+   </children>
+</AnchorPane>
