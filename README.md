@@ -6,7 +6,7 @@ Transky is an application that help to transcript all speech from your computer.
 
 After Covid-19, online course becames an alternative for many universities and instituts.
 I learnt Russian language for 1 year (2020) and I started university courses on the following years.
-the big problem that I had to overcome was to find best wqy to increase my vocabulary and practice.
+The big problem that I had to overcome was to find best way to increase my vocabulary and practice.
 
 <Strong>How to write words that you never listen and that you don't know the meaning?</Strong>
 
@@ -18,11 +18,24 @@ On that way, the sound from computer was transmitted to the traductor on my phon
 
 ![system](https://user-images.githubusercontent.com/49105704/137176410-46ae9b45-a202-4738-8eae-1a7e1436a92a.jpg)
 
-This method was useful for me but the room noise sometime distrubed transcription. 
-the unique way to solve that problem was to directly listen sound from computer to a translator.
+This method was useful for me but the room noise sometime distrubed transcription and I needed to click each time to the microphone to active listenning
+The unique way to solve that problem was to directly listen sound from computer to a translator.
 
 So I decided to create an internal application which directly listens sound, transcripts and translates it.
 
 ## Welcome to Transky!
 
+![image](https://user-images.githubusercontent.com/49105704/137181216-6922ccb2-50e1-4ab0-b501-ec8183f7f12b.png)
 
+Simple as an applicaiton, you just need to click to the microphone and wait transcription of any sound from computer.
+
+### Transcription language support
+
+| Version | Supported          | Supported          |
+| ------- | ------------------ | ------------------ |
+| 1.0     | English            | :white_check_mark: |
+| 1.0     | Français           | :white_check_mark: |
+| 1.0     | Русский            | :white_check_mark: |
+|         | Other              | :x:                |
+
+<h3><a href='https://drive.google.com/file/d/1BNvzSCRnrB7oQYWOHqGKAIa_SQq4t3V5/view?usp=sharing'>Download Here Jar File</a></h3>
