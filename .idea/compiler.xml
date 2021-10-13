@@ -20,7 +20,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Transky" target="8" />
+      <module name="Transky" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -11,6 +11,8 @@ import java.io.IOException;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Modality;
@@ -19,6 +21,7 @@ import javafx.stage.StageStyle;
 import sample.Data.M;
 import sample.Data.R;
 import sample.Data.S;
+import sample.Pack.Accueil.AccueilController;
 
 
 /**
@@ -40,6 +43,20 @@ public class Main extends Application {
         stage.setAlwaysOnTop(true);
         stage.initStyle(StageStyle.TRANSPARENT);
         stage.show();
+
+
+
+        /**
+         * KeyEvent
+         */
+
+        R.scenes.get(S.Scne_Accueil).addEventFilter(KeyEvent.KEY_PRESSED, (KeyEvent event) -> {
+            if (event.getCode() == KeyCode.SPACE) {
+                R.booleanproperties.get(S.Bool_Prop_Restart_listen).set(!R.booleanproperties.get(S.Bool_Prop_Restart_listen).getValue());
+                System.out.println("Restart to listen");
+            }
+            event.consume();
+        });
 
         M.RecadrerStage(stage);   // mettre le stage au mileu de l'ecran
         //Load_Ressource();

@@ -1,5 +1,6 @@
 package sample.Data;
 
+import javafx.beans.property.BooleanProperty;
 import javafx.beans.property.StringProperty;
 import javafx.scene.Scene;
 import javafx.scene.layout.Pane;
@@ -17,6 +18,7 @@ public interface R {
     Map<String, Scene> scenes = new HashMap<String, Scene>();
 
     Map<String, StringProperty>  stringproperties = new HashMap<>();
+    Map<String, BooleanProperty>  booleanproperties = new HashMap<>();
 
 
     //String
