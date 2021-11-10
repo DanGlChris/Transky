@@ -5,7 +5,7 @@ Transky is an application that help to transcript and translate all speech from 
 ## Problem
 
 After Covid-19, online course becames an alternative for many universities and instituts.
-I learnt Russian language for 1 year (2020) and I started university courses on the following years.
+I learnt Russian language for 1 year (2020) and I started university courses on the following year.
 The big problem that I had to overcome was to find a best way to increase my vocabulary.
 
 <Strong>How to write words that you never listen and that you don't know the meaning?</Strong>
