@@ -27,7 +27,7 @@ So I decided to create an internal application which directly listens sound, tra
 
 ![image](https://user-images.githubusercontent.com/49105704/137181216-6922ccb2-50e1-4ab0-b501-ec8183f7f12b.png)
 
-Simple as an applicaiton, you just need to click to the microphone and wait translation of any sound from computer.
+Simple as an applicaiton, you just need to click to the microphone and wait transcription of any sound from computer.
 
 ### Transcription language support
 
