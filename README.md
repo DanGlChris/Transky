@@ -24,8 +24,9 @@ The unique way to solve that problem was to directly listen the sound from compu
 So I decided to create an internal application which directly listens sound, transcripts and translates it.
 
 ## Welcome to Transky!
-![image](https://user-images.githubusercontent.com/49105704/156830448-7f3da4a2-a44b-4a7d-b2ee-83f7e97f4cec.png)
-![image](https://user-images.githubusercontent.com/49105704/156830529-6b63b05d-07ae-43d0-8483-787ab295f385.png)
+![image](https://user-images.githubusercontent.com/49105704/156830716-96d8b728-ef03-4da0-a5c9-ea0bae4a6ce6.png)
+
+![image](https://user-images.githubusercontent.com/49105704/156830768-c5f37e0e-99a3-4fcf-8846-9718d31e0c09.png)
 
 Simple as an applicaiton, you just need to click to the microphone and wait for the transcription of any sound from computer.
 
