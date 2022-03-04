@@ -39,4 +39,4 @@ Simple as an applicaiton, you just need to click to the microphone and wait for 
 | 1.0     | Русский            | :white_check_mark: |
 |         | Other              | :x:                |
 
-<h3><a href='https://drive.google.com/file/d/1BNvzSCRnrB7oQYWOHqGKAIa_SQq4t3V5/view?usp=sharing'>Download Here Jar File</a></h3>
+<h3><a href='https://drive.google.com/file/d/10lGINMqpONtO8GEDbATuxrTgEZ2-DoJ5/view?usp=sharing'>Download Here Jar File</a></h3>
