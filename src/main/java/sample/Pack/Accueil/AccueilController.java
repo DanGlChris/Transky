@@ -17,6 +17,7 @@ import javafx.beans.property.StringProperty;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.CheckBox;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.Hyperlink;
 import javafx.scene.image.Image;
@@ -32,6 +33,7 @@ import java.util.ResourceBundle;
 
 public class AccueilController implements Initializable, GSpeechResponseListener {
     private double xoffset, yoffset;
+    private final double text_transcription_normal = 38, text_transcription_large = 82;
     protected String old_text = "";
     private static boolean record_active = false;
     private BooleanProperty clearActionProperty = new SimpleBooleanProperty(false);
@@ -67,6 +69,9 @@ public class AccueilController implements Initializable, GSpeechResponseListener
 
     @FXML
     public ChoiceBox<String> Translate_to;
+
+    @FXML
+    public CheckBox Check_btn;
 
     @FXML
     public void Close(ActionEvent event) {
@@ -141,6 +146,21 @@ public class AccueilController implements Initializable, GSpeechResponseListener
                 Recorde_thread.start();
             }
         });
+        /**
+         * add posibitily to desable translation
+         */
+        Check_btn.setOnAction(e->{
+            if(!Check_btn.isSelected()){
+                Text_transcription.prefHeightProperty().set(text_transcription_large);
+                Text_translate.setVisible(false);
+                Translate_to.setDisable(true);
+            }else{
+                Text_transcription.prefHeightProperty().set(text_transcription_normal);
+                Text_translate.setVisible(true);
+                Translate_to.setDisable(false);
+            }
+        });
+
         /**
          * add 3 language into choicebox
          */
@@ -253,6 +273,12 @@ public class AccueilController implements Initializable, GSpeechResponseListener
     public void onResponse(GoogleResponse gr) {
 
     }
+
+    /**
+     * this fuction help to open web browser
+     * when a link is clicked
+     * @param urlString
+     */
     public static void openWebpage(String urlString) {
         try {
             Desktop.getDesktop().browse(new URL(urlString).toURI());

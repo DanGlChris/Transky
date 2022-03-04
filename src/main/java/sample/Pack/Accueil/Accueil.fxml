@@ -5,6 +5,7 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.Cursor?>
 <?import javafx.scene.Group?>
+<?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.ChoiceBox?>
 <?import javafx.scene.control.Hyperlink?>
 <?import javafx.scene.control.Label?>
@@ -50,7 +51,7 @@
       </Label>
       <Group layoutX="608.0" layoutY="22.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="608.0" AnchorPane.topAnchor="0.0" />
       <ChoiceBox fx:id="language_list" focusTraversable="false" layoutX="577.0" layoutY="14.0" prefHeight="25.0" prefWidth="78.0" AnchorPane.rightAnchor="38.0" AnchorPane.topAnchor="22.0" />
-      <JFXTextArea fx:id="Text_transcription" editable="false" focusColor="#405aa800" focusTraversable="false" layoutX="18.0" layoutY="12.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="38.0" prefWidth="710.0" promptText="Start listening to something ..." style="-fx-background-color: #D8DADC; -fx-background-radius: 0 20 0 0; -fx-prompt-text-fill: #686868;" unFocusColor="#4d4d4d00" AnchorPane.leftAnchor="17.0" AnchorPane.topAnchor="8.0">
+      <JFXTextArea fx:id="Text_transcription" editable="false" focusColor="#405aa800" focusTraversable="false" layoutX="19.0" layoutY="10.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="38.0" prefWidth="710.0" promptText="Start listening to something ..." style="-fx-background-color: #D8DADC; -fx-background-radius: 0 20 0 0; -fx-prompt-text-fill: #686868;" unFocusColor="#4d4d4d00" AnchorPane.leftAnchor="18.0" AnchorPane.topAnchor="9.0">
          <font>
             <Font name="Arial Bold" size="13.0" />
          </font>
@@ -87,5 +88,6 @@
             <Font size="10.0" />
          </font>
       </Hyperlink>
+      <CheckBox fx:id="Check_btn" alignment="CENTER" contentDisplay="CENTER" graphicTextGap="0.0" layoutX="871.0" layoutY="58.0" mnemonicParsing="false" selected="true" />
    </children>
 </AnchorPane>
