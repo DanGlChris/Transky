@@ -40,3 +40,4 @@ Simple as an applicaiton, you just need to click to the microphone and wait for 
 |         | Other              | :x:                |
 
 <h3><a href='https://drive.google.com/file/d/10lGINMqpONtO8GEDbATuxrTgEZ2-DoJ5/view?usp=sharing'>Download Here Jar File</a></h3>
+<h3><a href='https://youtu.be/c_3H13ufqPM'>See how to download on Youtube</a></h3>
